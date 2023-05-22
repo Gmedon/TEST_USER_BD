@@ -1,7 +1,8 @@
-# Projeto de autenticação Basic
+# Projeto de test JEST
 
-<p>Neste projeto que desenvolvi, utilizei a biblioteca `PASSPORT` para auxiliar na autenticação.</p>
-<p>Projeto rodando em forma de API com consulta ao banco de dados, disponivel na raiz do projeto!</p><br/>
+<p>Este projeto foi desenvolvido com o objetivo de testar o service de uma aplicação, nele utilizaremos um banco de dados somente para test.</p>
+<p>Após a criação do banco de dados iremos fazer o export do Model criando a tabela automaticamente. O test irá testar as funções de um usuario,
+  como a criação de um usuario e logar com a conta do mesmo.</p>
 <h3>Para rodar este projeto será necessario algumas ferramentas</h3><br/>
 
 Nodemon é Ts-Node - para instalação deles e bem simples <br/>
@@ -11,5 +12,8 @@ Nodemon é Ts-Node - para instalação deles e bem simples <br/>
 ### Para instalação
 `npm install`
 
-### Para rodar
+### Para rodar o projeto
 `npm run start-dev`
+
+### Para rodar o test
+`npm test`
